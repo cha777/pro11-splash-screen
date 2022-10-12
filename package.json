@@ -1,0 +1,23 @@
+{
+  "name": "nw-splash-example",
+  "version": "0.1.0",
+  "main": "index.html",
+  "window": {
+    "width": 375,
+    "height": 600,
+    "resizable": false,
+    "frame": false,
+    "transparent": true,
+    "position": "center",
+    "show_in_taskbar": false
+  },
+  "scripts": {
+    "start": "nw ."
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  },
+  "devDependencies": {
+    "nw": "sdk"
+  }
+}

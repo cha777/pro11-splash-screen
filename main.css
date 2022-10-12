@@ -1,0 +1,23 @@
+body {
+  background-image: url('./assets/splash.bmp');
+  margin: 0px;
+  user-select: none;
+  -webkit-app-region: no-drag;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 0px 2px #2390cf;
+  box-sizing: border-box;
+}
+
+.message {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
