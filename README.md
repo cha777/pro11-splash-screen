@@ -1,12 +1,5 @@
-# NW.js Splash Screen Example
+# Pro11 Splash Screen POC
 
-This is a demo of the [NW-Splasher](https://github.com/nwutils/nw-splasher) library. Check it out to see its full API.
+This is a demo for showing splash screen in Pro11 application.
 
-Demo shows a splash screen until the main application loads.
-
-![Animation of splash screen and app loading](splash.gif)
-
-Splash screen and app are separate instances, meaning:
-
-* Splash screen animations will play smoothly as the app loads
-* Splash screen window can be closed without effecting the app loading/showing (Not parent-childed)
+Visibility of the splash screen will be updated based on the availability of temp.dat file in the current directory.
